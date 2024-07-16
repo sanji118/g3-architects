@@ -129,6 +129,10 @@ header{
     text-align: center;
     padding-left: 28.125rem;
 }
+footer{
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+}
 
 
 @media screen and (max-width: 576px) {
@@ -142,9 +146,19 @@ header{
     header{
         padding: 45px 35px;
     }
-   .padding{
+    .padding{
         padding: 45px 40px;
-   }
+    }
+    .experience{
+        left: -30px;
+    }
+    .sponsors{
+        gap: 60px;
+    }
+    #sponsors-para{
+        text-align: center;
+        padding-left: 24px;
+    }
 }
 
 
@@ -159,7 +173,17 @@ header{
     header{
         padding: 45px 50px;
     }
-   .padding{
+    .padding{
         padding: 45px 60px;
-   }
+    }
+    .experience{
+        left: -30px;
+    }
+    .sponsors{
+        gap: 90px;
+    }
+    #sponsors-para{
+        text-align: center;
+        padding-left: 140px;
+    }
 }
