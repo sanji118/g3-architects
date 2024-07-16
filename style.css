@@ -105,6 +105,30 @@ header{
     top: -130px;
     left: -60px;
 }
+.facts{
+    justify-content: space-evenly;
+}
+.facts > div{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    padding: 30px 40px;
+}
+.facts-img{
+    width: 25%;
+}
+.img{
+    width: 75%;
+}
+.sponsors{
+    justify-content: space-evenly;
+    padding: 50px;
+}
+#sponsors-para{
+    width: 33.875rem;
+    text-align: center;
+    padding-left: 28.125rem;
+}
 
 
 @media screen and (max-width: 576px) {
