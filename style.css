@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.padding-bottom{
+    padding-bottom: 130px;
+}
+.font{
+    font-family: Work Sans;
+}
+.heading{
+    font-weight: 700;
+    font-size: 2.8125rem;
+    color: rgb(19,19,19);
+}
+.para{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(114, 114, 114);
+}
+.btn-primary{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(255, 144, 14);
+    padding: 21px 24px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+.align-item{
+    text-align: center;
+}
+.display{
+    display: flex;
+}
+#banner h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+#navbar{
+    justify-content: space-between;
+    padding-bottom: 86px;
+    
+}
+.navlist{
+    justify-content: space-around;
+    list-style: none;
+    gap: 24px;
+
+}
+nav>ul>li{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color:rgb(66, 66, 66);
+}
+header{
+    background-color:rgba(255, 144, 14, 0.1) ;
+    padding: 45px 240px;
+}
