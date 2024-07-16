@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-
+body{
+    max-width: 1920px;
+}
 .padding-bottom{
     padding-bottom: 130px;
 }
@@ -49,12 +51,27 @@
     gap: 24px;
 
 }
-nav>ul>li{
+nav>ul>li>a{
     font-size: 1.125rem;
     font-weight: 500;
     color:rgb(66, 66, 66);
+    text-decoration: none;
 }
 header{
     background-color:rgba(255, 144, 14, 0.1) ;
     padding: 45px 240px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .display{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    header{
+        padding: 45px 35px;
+    }
 }
